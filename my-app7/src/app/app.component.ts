@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+const num = 7;
+
 @Component({
   selector: 'jp-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular CLI Course !';
+
+  sayHello() {
+    const x = 10;
+  }
 }
